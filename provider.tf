@@ -29,6 +29,12 @@ variable proxmox_api_token_secret {
 	
 }
 
+variable cipassword {
+	
+	type = string
+	sensitive = true
+}
+
 
 provider "proxmox" {
 	pm_api_token_id = var.proxmox_api_token_id
