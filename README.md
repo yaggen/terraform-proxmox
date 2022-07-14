@@ -12,6 +12,11 @@ I downloaded debian 11 (bullseye) cloud-init [image](https://cloud.debian.org/im
 
 The process of creating api tokens in proxmox to use with terraform is also described in above blogpost
 
+# Result
+This configuration deploys two VMs on my Proxmox node called "labbet" i also added some configuration in *outputs.tf* to make use of terraforms output functionality so i easily can grab the IP-adress of those freshly deployed machines. 
+
+![Result](https://jackhack.me/assets/images/terraform.png)
+
 ### Resources
 - https://vectops.com/2020/05/provision-proxmox-vms-with-terraform-quick-and-easy/
 - https://austinsnerdythings.com/2021/09/01/how-to-deploy-vms-in-proxmox-with-terraform/
